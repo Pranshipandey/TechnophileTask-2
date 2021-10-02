@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta name="viewport" content="width=device-width ,initial-scaled=1 ,user-scalabe=no" />
+        <link rel="stylesheet" type="text/css" href="surveyform.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h1 id="head"> FreecodeCamp Survey Form</h1>
+            <h2 id="subheading"><i> Thank you for taking the time to help us improve the platform</i></h2>
+
+        </div>
+        <form>
+            <div id="content1">
+                <label1>Name</label1> <br><br>
+                <input type="name" name="name" placeholder="Enter your name" class="box"> <br><br>
+                <label1>Email</label1> <br><br>
+                <input type="email" name="email" placeholder="Enter your email" class="box"> <br><br>
+                <label1>Age(Optional)</label1> <br><br>
+                <input type="age" name="age" placeholder="Enter your age" class="box"> <br><br>
+                <label1>Which option best describes your role?</label1> <br><br>
+            
+            <div id="option1">
+                <select>
+                    <option name="Select your role">Select your role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time job"> Full Time job</option>
+                    <option value="Full time learner"> Full time learner</option>
+                    <option value="Prefer not to say"> Prefer not to say</option>
+                    <option value="Other"> Other</option>
+                </select>
+            </div>
+        <br>
+        <label  id="head1">Would you recommend Freecodecamp to a friend</label><br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely<br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe<br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNot Sure<br><br>
+        <label>What is your favourite feature of Freecodecamp?</label>
+        <div id="option2">
+            <select>
+                <option name="Select an option">Select an option</option>
+                    <option value="Challenged">Challenged</option>
+                    <option value="Projects"> Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open Source </option>
+                    <option value="Other"> Other</option>
+
+            </select>
+        </div> 
+        <br><br>
+        <label id="head2">What would you like us to improve(Check all that apply) </label><br>
+        <div id="content2">
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspFront-end projects</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspBack-end projects</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspData visualisation</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspChallenges</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspOpen Source Communty</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspGitter help rooms</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspVideos</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspCity meetups</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspWiki</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspForums</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspAdditional courses</label><br><br>
+        </div>
+        <label id="head2">Any comments or suggestions?</label><br><br>
+        <textarea placeholder="Enter Your Comment here..."></textarea><br><br>
+        <button><h3> Submit</h3></button>
+    
+        
+        
+        </form>
+    </body>
+</html>
